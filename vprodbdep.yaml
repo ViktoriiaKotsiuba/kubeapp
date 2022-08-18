@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: vprodb
-          image: viktoriiakotsiuba/vprofiledb:V1
+          image: vprofile/vprofileapp:V1
           args:
             - "ignore-db-dir=lost+found"
           volumeMounts:
